@@ -71,7 +71,17 @@ button {
 img {
     width: 300px;
     height: 300px;
+
 }
+
+img:hover {
+    filter: grayscale(80%);
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
 
 .pagination {
     display: flex;
